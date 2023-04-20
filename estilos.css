@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+body {
+    background-image: url(./imagenes/muneco.jpg);
+    background-size: cover;   
+}
+form{
+    text-align: right;
+    margin-right:5px;
+    margin-right: 4%;
+}
+h1{
+    font-family: 'Italianno', cursive;
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+}
+
+.parrafo {
+    margin-top: 2%;
+    color: aliceblue;
+    font-size: 2vw;
+}
+pre{
+    font-family: 'Italianno', cursive;
+}
+nav{
+    text-align: center;
+}
+a{
+    margin: 4%;
+    color: azure;
+    text-decoration: none;
+    font-size: 1vw;
+}
+footer{
+    text-align: center;
+}
+.social{margin-top: 300px;
+    margin: 4%;
+    color: azure;
+    text-decoration: none;
+    padding-top: 300px;
+}
+.contenedor {
+    display: flex;
+    font-family: 'Italianno', cursive;
+    margin-top: 2%;
+    color: aliceblue;
+    font-size: 2vw;
+}
+

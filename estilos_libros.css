@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap');
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-size: cover;
+}
+
+/* .texto {
+    width: 200px;
+
+}
+
+input {
+    width: 100px;
+    height: 30px;
+} */
+
+.libros {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.imagen {
+    height: 40%;
+    width: 70%;
+    border-radius: 30px;
+}
+
+.fuente_infantiles {
+
+    font-family: 'Rubik Puddles', cursive;
+    color: gold;
+}
+
+.fuente_terror {
+    font-family: 'Nosifer', cursive;
+    color: red;
+    font-style: normal;
+}
+
+.fuente_ficcion {
+    font-family: 'Nabla', cursive;
+}
+
+.header {
+    text-shadow: 3px 2px 2px rgba(234, 161, 65, 0.677);
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.contenedor {
+    width: auto;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding-top: 44px;
+    padding-bottom: 1%;
+}
+
+form {
+    text-align: right;
+    margin-right: 4%;
+}
+
+h1 {
+    text-shadow: 3px 2px 2px rgba(234, 161, 65, 0.677);
+    font-family: 'Italianno', cursive;
+    color: aliceblue;
+    text-align: center;
+    font-size: 187px;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Italianno', cursive;
+    color: aliceblue;
+    font-size: 80px;
+}
+
+p {
+    text-align: left;
+    color: aliceblue;
+    font-family: 'Italianno', cursive;
+    font-size: 70px;
+    text-align: justify;
+    padding-right: 100px;
+    -ms-text-size-adjust: auto;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    margin: 4%;
+    color: azure;
+    text-decoration: none;
+    font-size: 90px;
+}
+
+.social {
+    text-align: center;
+}
+
+img {
+    width: 80px;
+}
+
+@media only screen and (max-width:480px) {
+
+    /* Vista móvil: 1 imagen */
+    .contenedor {
+        width: 100%;
+        padding-bottom: 100%;
+
+    }
+}
+
+@media only screen and (max-width:650px) and (min-width:481px) {
+
+    /* Vista de tablet: 2 imágenes */
+    .contenedor {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+
+@media only screen and (max-width:1050px) and (min-width:651px) {
+
+    /* Vista de pantalla de potatil/ipad: 3 imágenes */
+    .contenedor {
+        width: 33.3%;
+        padding-bottom: 33.3%;
+    }
+}
+
+@media only screen and (max-width:1290px) and (min-width:1051px) {
+
+    /* Vista de ordenador/ pantallas grades: 4 imágenes */
+    .contenedor {
+        width: 25%;
+        padding-bottom: 25%;
+    }
+}

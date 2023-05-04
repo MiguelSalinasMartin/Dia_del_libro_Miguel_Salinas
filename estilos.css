@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
+html {
+    font-family: 'Italianno', cursive;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-image: url(./imagenes/muneco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor {
+    /*
+    display: grid;
+    grid-template-areas:'header    header  header'
+                        'parrafo   parrafo'
+                        'footer    footer';
+    grid-template-rows: 10% auto 5%;
+    grid-template-columns: 75% auto;
+    width: auto;
+*/
+    width: auto;
+}
+
+.header {
+    text-shadow: 3px 2px 2px rgba(234, 161, 65, 0.693);
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+
+
+.parrafo {
+    height: auto;
+    margin-top: 6%;
+    padding-bottom: 2%;
+    margin-bottom: 6%;
+    color: aliceblue;
+    font-size: 102px;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+p {
+    color: aliceblue;
+    padding-top: 82px;
+    font-family: 'Italianno', cursive;
+    margin-left: 142px;
+}
+
+.footer {
+
+    height: 100%;
+
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding-top: 44px;
+    padding-bottom: 1%;
+}
+
+/* form {
+    text-align: right;
+    margin-right: 4%;
+}
+
+.texto {
+    width: 250px;
+
+} 
+
+input {
+    width: 100px;
+    height: 40px;
+}   */
+
+h1 {
+    text-shadow: 3px 2px 2px rgba(234, 161, 65, 0.677);
+    font-family: 'Italianno', cursive;
+    color: aliceblue;
+    text-align: center;
+    font-size: 187px;
+}
+
+h2 {
+    font-family: 'Italianno', cursive;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+
+
+nav {
+    text-align: center;
+}
+
+a {
+    margin: 4%;
+    color: azure;
+    text-decoration: none;
+    font-size: 109px;
+
+}
+
+.social {
+    text-align: center;
+
+}
+
+img {
+    width: 80px;
+}
+
+@media only screen and (max-width:480px) {
+
+    /* Vista móvil: 1 imagen */
+    .contenedor {
+        width: 100%;
+        padding-bottom: 100%;
+
+    }
+}
+
+@media only screen and (max-width:650px) and (min-width:481px) {
+
+    /* Vista de tablet: 2 imágenes */
+    .contenedor {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+
+@media only screen and (max-width:1050px) and (min-width:651px) {
+
+    /* Vista de pantalla de potatil/ipad: 3 imágenes */
+    .contenedor {
+        width: 33.3%;
+        padding-bottom: 33.3%;
+    }
+}
+
+@media only screen and (max-width:1290px) and (min-width:1051px) {
+
+    /* Vista de ordenador/ pantallas grades: 4 imágenes */
+    .contenedor {
+        width: 25%;
+        padding-bottom: 25%;
+    }
+}

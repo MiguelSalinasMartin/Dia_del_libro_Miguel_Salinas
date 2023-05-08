@@ -138,7 +138,7 @@ img {
 
     /* Vista de pantalla de potatil/ipad: 3 imágenes */
     .contenedor {
-        width: 33.3%;
+          /* width: 33.3%; */
         padding-bottom: 33.3%;
     }
 }

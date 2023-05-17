@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos_libros.css">
+  <script src="script.js"></script>
+  <link rel="icon" href="./imagenes/favicon.png" type="image/png">
+  <title>Autoayuda</title>
+</head>
+
+<body>
+  <div class="contenedor">
+    <header>
+      <nav>
+        <a href="./index.html">Inicio</a>
+        <a href="./autoayuda/buenosDiasAlegria.jpg.html" target="_self">Ficción</a>
+        <a href="./recomendados.html" target="_self">Recomendados</a>
+        <a href="./terror.html" target="_self">Terror</a>
+        <a href="./infantiles.html" target="_self">Infantiles</a>
+
+      </nav>
+      <div>
+        <div id="Menu1" class="cabMenu" onMouseout="despMenu('itMenu1',false)" onMouseover="despMenu('itMenu1',true)">
+          Menú de compras
+        </div>
+        <div id="itMenu1" class="contMenu1" onMouseover="despMenu('itMenu1',true)"
+          onMouseout="despMenu('itMenu1',false)">
+          <div id="itMenu11" class="itMenuDes" onMouseover="destacar(this,true)" onMouseout="destacar(this,false)">
+            <a class="letra" href="#">Tienda onLine</a>
+          </div>
+          <div id="itMenu12" class="itMenuDes" onMouseover="destacar(this,true)" onMouseout="destacar(this,false)">
+            <a class="letra" href="#">Tienda física</a>
+          </div>
+          <div id="itMenu13" class="itMenuDes" onMouseover="destacar(this,1)" onMouseout="destacar(this,false)">
+            <a class="letra" href="#">Carrito</a>
+          </div>
+        </div>
+
+      </div>
+    </header>
+    <h1 class="fuente_autoayuda">Autoayuda</h1>
+    <!-- <div class="libros_autoayuda"> -->
+    <!-- <div class="carousel"> original
+          <button id="retroceder"><</button>
+          <div id="imagen"></div>
+          <button id="avanzar">></button>
+      </div> -->
+    <!-- <div class="controles">
+          <button id="play">Play</button>
+          <button id="stop" disabled>Stop</button>
+      </div> -->
+    <div class="carousel"><!--prueba_uno-->
+
+
+      <div>
+        <button id="retroceder" src><img
+            src="./imagenes/iconos/Pictogrammers-Material-Arrow-Arrow-left-bold-box-outline.512.png"></button>
+      </div>
+      <div id="imagen"></div>
+      <div>
+        <button id="avanzar"><img
+            src="./imagenes/iconos/Pictogrammers-Material-Arrow-Arrow-right-bold-box-outline.512.png"></button>
+      </div>
+    </div>
+
+    <!-- </div> -->
+    <footer>
+      <div class="social">
+        <a href="#"><img src="imagenes/redes/Gmail.ico" alt="Gmail"></a>
+        <a href="#"><img src="imagenes/redes/facebook.ico" alt="facebook"></a>
+        <a href="#"><img src="imagenes/redes/twitter.ico" alt="twitter"></a>
+        <a href="#"><img src="imagenes/redes/instagram.ico" alt="instagram"></a>
+        <a href="#"><img src="imagenes/redes/whatsapp.ico" alt="whatsapp"></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:100px;height:51px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="¡CSS Válido!" />
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
